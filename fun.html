@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Мандаринка.ru</title>
+	<link rel="stylesheet" href="css/fun.style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.spoiler-body').hide();
+$('.spoiler-title').click(function(){
+    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
+    if($(this).hasClass('opened')) {
+        $(this).html('Скрыть');
+    }
+    else {
+        $(this).html('Подробнее');
+    }
+});
+});
+</script>
+
+	<SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
+	<script type="text/javascript" src="/js/popup_img.js"></script>
+<script src="/js/main.js"></script>
+
+</head>
+
+<body>
+<header>
+		<div class="logo"><a href=""><h3>Мандаринка</h3></a></div>
+	<div class="left_menu">
+		<a href=""><span>Признания в любви</span></a>
+			<a href=""><span>С добрым утром</span></a>
+				<a href=""><span>Спокойной ночи</span></a>
+													</div>
+															</header>
+
+	<div class="container">
+	
+
+	<div class="right_menu">
+		<img src="img/cosplay_logo.jpg" alt="">
+		<h2>Приколы</h2>
+		<p>Сообщество хорошего настроения</p>
+
+		
+
+
+	</div>
+
+<div class="rules_header"><h4>Правила</h4></div>
+	<div class="rules"><p>Фотографии можно предложить в соответствующем меню с указанием персонажа и фендома<br></p>
+<p><br>Фотографии должны соответствовать тематике и иметь обязательную ссылку на косплеера или фотографа</p>
+		</div>
+
+
+
+
+		<div class="main">
+
+
+<div class="box_send">
+	
+<form enctype="multipart/form-data" method="post">
+   <p><input type="file" name="f">
+   <input type="submit" value="Отправить"></p>
+</div>
+
+
+
+
+	<div class="box">
+					<div class="heading"><a href=""><span >Приколы</span></a> <a href=""><img src="img/profile-icon.png" width="20" height="20" alt="" ><h3 >maxxeqq</h3></a></div> 
+<h1>Котик с пушистым хвостиком</h1>
+<p>
+Первый наш пост посящён зверьку с очень пушистеньким, ну вы сами поняли чем.  
+</p>
+<iframe width="600" height="600" src="https://www.youtube.com/embed/gQoHWqGL6PY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script type="text/javascript">
+	$(document).ready(function() { // Ждём загрузки страницы
+	
+	$(".image").click(function(){	// Событие клика на маленькое изображение
+	  	var img = $(this);	// Получаем изображение, на которое кликнули
+		var src = img.attr('src'); // Достаем из этого изображения путь до картинки
+		$("body").append("<div class='popup'>"+ //Добавляем в тело документа разметку всплывающего окна
+						 "<div class='popup_bg'></div>"+ // Блок, который будет служить фоном затемненным
+						 "<img src='"+src+"' class='popup_img' />"+ // Само увеличенное фото
+						 "</div>");
+		$(".popup").fadeIn(200); // Медленно выводим изображение
+		$(".popup_bg").click(function(){	// Событие клика на затемненный фон	   
+			$(".popup").fadeOut(200);	// Медленно убираем всплывающее окн	
+      setTimeout(function() {	// Выставляем таймер
+			  $(".popup").remove(); // Удаляем разметку всплывающего окна
+			}, 200);
+		});
+	});
+	
+});
+</script>
+
+
+</div>
+
+
+
+
+
+
+
+			
+</div>
+
+
+	
+
+
+
+	
+	<aside>
+	<div class="aside_box">
+		<a href=""><div class="rubrika"><span>Игры</span></div></a> 
+		 <img src="img/gaben_2.jpg" alt="">
+<div class="inside_box">
+		 	<h2>Valve представила номинантов ежегодной премии Steam</h2>
+		 	<h3>10 фотографий</h3>
+		 </div>
+		 
+	</div>
+</aside>
+<aside>
+	
+	<div class="aside_box">
+		<a href=""><div class="rubrika_goth"><span>Субкультура</span></div></a> 
+		 <img src="img/goth.jpg" alt="">
+		 <div class="inside_box">
+		 	<h2>Готичные девушки</h2>
+		 	<h3>10 фотографий</h3>
+		 </div>
+	</div>
+
+
+	
+
+</aside>
+
+<aside>
+	<div class="aside_box">
+		<a href=""><div class="rubrika"><span>Игры</span></div></a> 
+		 <img src="img/gaben_2.jpg" alt="">
+<div class="inside_box">
+		 	<h2>Valve представила номинантов ежегодной премии Steam</h2>
+		 </div>
+		 
+	</div>
+</aside>
+	<aside>
+	<div class="aside_box">
+		<a href=""><div class="rubrika"><span>Субкультура</span></div></a> 
+		 <img src="img/goth.jpg" alt="">
+		 <div class="inside_box">
+		 	<h2>Готичные девушки</h2>
+		 </div>
+	</div>
+
+
+	
+
+</aside>
+
+	<a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
+</body>
+</html>
